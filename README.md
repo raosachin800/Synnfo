@@ -5,19 +5,22 @@
 </div>
 <div align="center">
 
-### LemonYellow Desktop
+  ### LemonYellow Mobile
 
+![LemonYellowr_Mobile](LY_Mobile.gif)
 
-![LemonYellow_Desktop](LY_Desktop.gif)
 
 </div>
 
 ---
 <div align="center">
+  
+  ### LemonYellow Desktop
 
-### LemonYellow Mobile
 
-![LemonYellowr_Mobile](LYr_Mobile.gif)
+![LemonYellow_Desktop](LY_Desktop.gif)
+
+
 
 </div>
 
