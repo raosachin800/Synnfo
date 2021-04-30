@@ -9,7 +9,7 @@
   
   <h3> Tested in iphone 6/7/8/plus </h3>
 
-![LemonYellowr_Mobile](LY_Mobile.gif)
+![LemonYellowr_Mobile](Ly_mob.gif)
 
 
 </div>
