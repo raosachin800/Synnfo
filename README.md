@@ -27,5 +27,7 @@
 </div>
 
 ---
-
+<h3>After downloading the files <br>
+  npm install / npm i <br>
+  npm start
 [Sachin Manchalla](https://github.com/raosachin800)
