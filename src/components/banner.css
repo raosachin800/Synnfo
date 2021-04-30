@@ -86,7 +86,8 @@ font-family: 'Titillium Web', sans-serif; */
   }
   .group h1 {
     width: 360px;
-    margin: 1rem 0 32px 1.5rem;
+/*     margin: 1rem 0 32px 1.5rem; */
+    margin: 1rem 0 32px 0.5rem;
     height: 62px;
     font-family: Merriweather;
     font-size: 40px;
