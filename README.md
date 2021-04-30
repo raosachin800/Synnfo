@@ -1,11 +1,11 @@
 <div align="center">
 
-# LemonYellow  
+# LemonYellow ReactJS Website 
 
 </div>
 <div align="center">
 
-  ### LemonYellow Mobile
+  ### LemonYellow Mobile Version
   
   <h1> Tested in iphone 6/7/8/plus </h1>
 
