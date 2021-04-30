@@ -217,8 +217,12 @@ font-family: 'Titillium Web', sans-serif; */
 
 @media screen and (max-device-width: 420px) {
   .ham_content {
-    top: 3.5%;
+/*     top: 3.5%;
     left: -108.5%;
+    display: flex;
+    flex-direction: column; */
+    top: 0%;
+    left: -130.5%;
     display: flex;
     flex-direction: column;
   }
@@ -253,10 +257,14 @@ font-family: 'Titillium Web', sans-serif; */
     display: none;
   }
   .cloudy {
-    width: 30%;
+/*     width: 30%;
     top: 72.5%;
     position: absolute;
-    left: 38%;
+    left: 38%; */
+    width: 26%;
+    top: 73.5%;
+    position: absolute;
+    left: 41%;
   }
   .cloudy img {
     width: 100%;
