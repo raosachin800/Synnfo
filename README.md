@@ -29,5 +29,6 @@
 ---
 <h3>After downloading the files <br>
   npm install / npm i <br>
-  npm start
+  npm start <br>
+  
 [Sachin Manchalla](https://github.com/raosachin800)
