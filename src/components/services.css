@@ -147,6 +147,11 @@ font-family: 'Titillium Web', sans-serif; */
     height: 27px;
     margin: 8px 0 0;
   }
+  
+  .services_title h1 {
+    font-size: 18px;
+  }
+
 
   .services_cards {
     width: 400px;
@@ -170,7 +175,7 @@ font-family: 'Titillium Web', sans-serif; */
     height: 40px;
     margin: 24px 737px 8px 0;
     font-family: Merriweather;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
