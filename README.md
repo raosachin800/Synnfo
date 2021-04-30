@@ -7,7 +7,7 @@
 
   ### LemonYellow Mobile Version
   
-  <h1> Tested in iphone 6/7/8/plus </h1>
+  <h3> Tested in iphone 6/7/8/plus </h3>
 
 ![LemonYellowr_Mobile](LY_Mobile.gif)
 
