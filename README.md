@@ -1,23 +1,23 @@
 <div align="center">
 
-# LemonYellow  <img src="/tinder.png" width="28">
+# LemonYellow  
 
 </div>
 <div align="center">
 
-### Tinder Desktop
+### LemonYellow Desktop
 
 
-![Tinder_Desktop](Tinder_Desktop.gif)
+![LemonYellow_Desktop](LY_Desktop.gif)
 
 </div>
 
 ---
 <div align="center">
 
-### Tinder Mobile
+### LemonYellow Mobile
 
-![Tinder_Mobile](Tinder_Mobile.gif)
+![LemonYellowr_Mobile](LYr_Mobile.gif)
 
 </div>
 
