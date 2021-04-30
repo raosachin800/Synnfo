@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Titillium Web', sans-serif; */
+.cover_image img {
+  width: 100%;
+}
+
+.cover_image {
+  position: relative;
+}
+
+.cloud_about {
+  position: relative;
+}
+.content {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  transform: translate(-10, -50);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.arrow {
+  margin-right: 15rem;
+}
+
+.arrow p {
+  width: 100px;
+  height: 19px;
+  margin: 0 363px 24px 0;
+  font-family: TitilliumWeb;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #fe5814;
+}
+
+.arrow h3 {
+  width: 340px;
+  height: 40px;
+  margin: 24px 105px 8px 0;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.arrow h4 {
+  width: 445px;
+  height: 81px;
+  margin: 8px 0 24px;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.know {
+  width: 131px;
+  height: 40px;
+  margin: 24px 314px 0 0;
+  object-fit: contain;
+  color: #fe5814;
+  border: 2px solid #fe5814;
+  background-color: inherit;
+  transition: 0.5x;
+  transform-origin: right;
+  transform: scaleX(1);
+}
+
+@media screen and (max-device-width: 420px) {
+  .cloud_about {
+    background-image: url(../images//rectangle.svg);
+  }
+  .cover_image {
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .clouds img {
+    top: 77.5%;
+  }
+
+  .content {
+    width: 100%;
+    flex-direction: column-reverse;
+    left: 0;
+    top: 25%;
+    z-index: 99;
+    align-items: inherit;
+  }
+
+  .image {
+    align-items: center;
+    text-align: center;
+  }
+
+  .image img {
+    width: 90%;
+  }
+  .arrow {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    object-fit: cover;
+  }
+  .arrow p {
+    width: 174px;
+    height: 19px;
+    margin: 0 238px 16px 0;
+    font-family: TitilliumWeb;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fe5814;
+  }
+  .arrow h3 {
+    width: 312px;
+    height: 23px;
+    margin: 16px 0 8px;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .arrow h4 {
+    width: 320px;
+    height: 57px;
+    margin-top: 1rem;
+    font-family: TitilliumWeb;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .know {
+    width: 121px;
+    height: 32px;
+    margin: 16px 191px 0 0;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-device-width: 360px) {
+  .cloud_about {
+    background-image: url(../images//rectangle.svg);
+  }
+  .cover_image {
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .clouds img {
+    top: 47.5%;
+  }
+
+  .content {
+    width: 100%;
+    flex-direction: column-reverse;
+    left: 0;
+    top: 25%;
+    z-index: 99;
+    align-items: inherit;
+  }
+
+  .image {
+    align-items: center;
+    text-align: center;
+  }
+
+  .image img {
+    width: 90%;
+  }
+  .arrow {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    object-fit: cover;
+  }
+  .arrow p {
+    width: 174px;
+    height: 19px;
+    margin: 0 238px 16px 0;
+    font-family: TitilliumWeb;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fe5814;
+  }
+  .arrow h3 {
+    width: 312px;
+    height: 23px;
+    margin: 16px 0 8px;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .arrow h4 {
+    width: 320px;
+    height: 57px;
+    margin-top: 1rem;
+    font-family: TitilliumWeb;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .know {
+    width: 121px;
+    height: 32px;
+    margin: 16px 191px 0 0;
+    object-fit: contain;
+  }
+}

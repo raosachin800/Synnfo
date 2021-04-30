@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Titillium Web', sans-serif; */
+.provided_services {
+  position: relative;
+  background-color: #fff5f1;
+}
+
+.first_service img {
+  width: 100%;
+}
+
+.services_top {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.services_title p {
+  width: 250px;
+  height: 19px;
+  margin: 0 1020px 24px 0;
+  font-family: TitilliumWeb;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #fe5814;
+}
+
+.services_title h1 {
+  width: 372px;
+  height: 40px;
+  margin: 24px 737px 8px 0;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.services_title h3 {
+  width: 1109px;
+  height: 27px;
+  margin: 8px 0 0;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+/* Cards */
+.cards img {
+  width: 156px;
+  height: 131px;
+  margin-top: 5rem;
+  margin-left: 1.5rem;
+  object-fit: contain;
+}
+
+.services_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+}
+
+.services_cards .cards .bio h2 {
+  width: 400px;
+  height: 23px;
+  margin: 0 175px 16px 0;
+  font-family: Merriweather;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.services_cards .cards .bio h4 {
+  width: 306px;
+  height: 54px;
+  margin: 16px 0;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.services_cards .cards .bio h3 {
+  cursor: pointer;
+  width: 100px;
+  height: 27px;
+  margin: 16px 262px 0 0;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fe5814;
+}
+
+.services_cards .cards .bio {
+  width: 350px;
+  height: 236px;
+  margin: -20px 0 0;
+  padding: 64px 20px 36px 24px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #fff5f1;
+}
+
+@media screen and (max-device-width: 420px) {
+  .first_service img {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+  }
+
+  .services_title p {
+    width: 250px;
+    margin: 0 0 24px 0;
+    font-size: 20px;
+  }
+  .services_title h3 {
+    width: 350px;
+    height: 27px;
+    margin: 8px 0 0;
+  }
+
+  .services_cards {
+    width: 400px;
+    display: flex;
+    overflow-x: scroll;
+  }
+  .services_top {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    width: 400px;
+  }
+  .cards {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-device-width: 360px) {
+  .services_title h1 {
+    width: 302px;
+    height: 40px;
+    margin: 24px 737px 8px 0;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .services_cards .cards .bio h2 {
+    width: 300px;
+    height: 23px;
+    margin: 0 175px 16px 0;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .first_service img {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+  }
+
+  .services_title p {
+    width: 250px;
+    margin: 0 0 24px 0;
+    font-size: 20px;
+  }
+  .services_title h3 {
+    width: 300px;
+    height: 27px;
+    margin: 8px 0 0;
+    font-size: 12px;
+  }
+  .services_title h1 {
+    font-size: 18px;
+    margin: 0 0 0 0;
+  }
+
+  .services_cards {
+    width: 280px;
+    display: flex;
+    overflow-x: scroll;
+  }
+  .services_top {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    width: 340px;
+  }
+  .cards {
+    margin-right: 1rem;
+  }
+}

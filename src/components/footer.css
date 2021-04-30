@@ -1,0 +1,359 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Titillium Web', sans-serif; */
+
+.footer {
+  position: relative;
+}
+
+.background_image img {
+  width: 100%;
+}
+
+.footer_second {
+  display: none;
+}
+
+.left_column .upper_info h2 {
+  width: 255px;
+  height: 135px;
+  margin: 0 0 16px;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.left_column .upper_info .colab {
+  background-color: inherit;
+  width: 187px;
+  height: 40px;
+  margin: 16px 68px 0 0;
+  padding: 8px 15px 7px 16px;
+  border: solid 2px #fe5814;
+  color: #fe5814;
+}
+
+.left_column .lower_info .left_lower_info h2 {
+  width: 79px;
+  height: 27px;
+  margin: 0 217px 14px 0;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fe5814;
+}
+
+.left_column .lower_info .left_lower_info p {
+  width: 136px;
+  height: 42px;
+  margin: 0 24px 1px 0;
+  opacity: 0.5;
+  font-family: TitilliumWeb;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.left_column .lower_info .right_lower_info p {
+  width: 136px;
+  height: 42px;
+  margin: 0 24px 1px 0;
+  opacity: 0.5;
+  font-family: TitilliumWeb;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.left_column .lower_info .left_lower_info h3 {
+  width: 75px;
+  height: 31px;
+  margin: 1px 85px 0 0;
+  font-family: TitilliumWeb;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.lower_info .right_lower_info h3 {
+  width: 75px;
+  height: 31px;
+  margin: 1px 61px 0 24px;
+  font-family: TitilliumWeb;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.left_column .lower_info .right_lower_info p {
+  width: 136px;
+  height: 42px;
+  margin: 0 0 1px 24px;
+  opacity: 0.5;
+  font-family: TitilliumWeb;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.lower_info {
+  display: flex;
+  position: absolute;
+  top: 140%;
+}
+
+.right_lower_info {
+  position: absolute;
+  top: 34.5%;
+  left: 50%;
+}
+
+.content1 {
+  display: flex;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
+.second_column,
+.third_column,
+.fourth_column {
+  position: absolute;
+}
+
+.second_column {
+  left: 170%;
+}
+.third_column {
+  left: 240%;
+}
+.fourth_column {
+  left: 340%;
+}
+
+.second_column h3 {
+  width: 47px;
+  height: 27px;
+  margin: 9px 36px 24px 0;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fe5814;
+}
+
+.second_column h4 {
+  margin-top: 1.5rem;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.third_column h3 {
+  width: 47px;
+  height: 27px;
+  margin: 9px 36px 24px 0;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fe5814;
+}
+
+.third_column h4 {
+  width: 400px;
+  margin-top: 1.5rem;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.fourth_column .social_media h3 {
+  width: 200px;
+  height: 27px;
+  margin: 8.5px 0 14px;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fe5814;
+}
+
+.fourth_column .social_media img {
+  width: 40px;
+  height: 40px;
+  margin: 0 80px 0 0;
+  padding: 6px 5px 8px 8px;
+}
+
+.contact_info h3 {
+  width: 73px;
+  height: 27px;
+  margin: 0 126px 24px 1px;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fe5814;
+}
+
+.contact_info h4 {
+  width: 200px;
+  height: 31px;
+  margin: 24px 27px 8px 7px;
+  font-family: TitilliumWeb;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+@media screen and (max-device-width: 420px) {
+  .content1 {
+    top: 7%;
+    left: 20%;
+  }
+
+  .footer {
+    background-image: url("../images/footer1.svg");
+    height: 100vh;
+    width: 420px;
+  }
+
+  .footer_first {
+    display: none;
+  }
+
+  .left_column .upper_info h2 {
+    font-size: 28px;
+    width: 290px;
+    height: 79px;
+  }
+  .left_column .upper_info .colab {
+    margin: 0 0 0px 0;
+  }
+
+  .background_image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer_second {
+    width: 100%;
+    display: inline;
+  }
+  .left_column {
+    position: relative;
+  }
+  .upper_info {
+    margin-top: 180%;
+  }
+
+  .lower_info {
+    display: grid;
+    top: -4%;
+    left: 50%;
+  }
+
+  .left_column .lower_info .right_lower_info p {
+    margin: 0 0 0 0;
+  }
+  .right_lower_info {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+  }
+
+  .left_column .lower_info .left_lower_info h2 {
+    width: 18px;
+  }
+
+  .lower_info .right_lower_info h3 {
+    margin: 0 0 0 0;
+  }
+  .second_column {
+    left: -10%;
+    top: -5%;
+  }
+  .third_column {
+    left: 50%;
+    top: 25%;
+  }
+  .third_column h4 {
+    width: 214px;
+  }
+  .fourth_column {
+    left: -11%;
+    top: 60%;
+  }
+  .contact_info {
+    display: none;
+  }
+}
+
+@media screen and (max-device-width: 360px) {
+  * {
+    max-width: 360px;
+    align-items: center;
+    justify-content: center;
+  }
+}

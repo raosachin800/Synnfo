@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Titillium Web', sans-serif; */
+.engagement {
+  height: 100vh;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.modal {
+  margin-top: 7%;
+  margin-left: 19%;
+}
+
+.modal h3 {
+  width: 200px;
+  height: 19px;
+  margin: 0 0px 24px 0;
+  font-family: TitilliumWeb;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #fe5814;
+}
+
+.modal h2 {
+  width: 308px;
+  height: 40px;
+  margin: 24px 261px 8px 0;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.modal h4 {
+  width: 569px;
+  height: 27px;
+  margin: 8px 0 0;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+/* Accordion */
+ul {
+  margin-bottom: 0;
+}
+
+.moon {
+  margin-left: 18%;
+  margin-top: 5%;
+}
+
+#style-4::-webkit-scrollbar {
+  width: 10px;
+  background-color: #1f1b1b;
+}
+
+#style-4::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #555555;
+}
+
+.WithStyles\(ForwardRef\(Accordion\)\)-root-1 {
+  width: 100% !important;
+  box-shadow: none;
+}
+
+@media screen and (max-device-width: 420px) {
+  .moon {
+    overflow-x: hidden !important;
+    margin: 0 0 0 0.5rem;
+  }
+  .modal {
+    margin: 0;
+  }
+
+  .modal h3 {
+    margin: 20px 0px 24px 30px;
+  }
+
+  .modal h2 {
+    margin: 24px 261px 8px 28px;
+  }
+
+  .modal h4 {
+    width: 360px;
+    height: 100px;
+    margin: 8px 0 0px 30px;
+  }
+
+  .WithStyles\(ForwardRef\(AccordionDetails\)\)-root-6 {
+    width: 420px;
+    display: flex;
+    padding: 16px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .MuiTypography-root,
+  .MuiTypography-body1 img {
+    margin-top: 1rem;
+    width: 95%;
+  }
+  .WithStyles\(ForwardRef\(Accordion\)\)-root-1 {
+    width: 420px !important;
+    box-shadow: none;
+  }
+
+  .WithStyles\(ForwardRef\(AccordionDetails\)\)-root-6 {
+    width: 420px !important;
+    display: flex;
+    padding: 16px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-device-width: 360px) {
+  .moon {
+    overflow-x: hidden !important;
+    margin: 0 0 0 0.5rem;
+  }
+  .modal {
+    margin: 0;
+  }
+
+  .modal h3 {
+    margin: 20px 0px 24px 30px;
+  }
+
+  .modal h2 {
+    margin: 24px 261px 8px 28px;
+  }
+
+  .modal h4 {
+    width: 310px;
+    height: 100px;
+    margin: 8px 0 0px 32px;
+  }
+
+  .WithStyles\(ForwardRef\(AccordionDetails\)\)-root-6 {
+    width: 360px;
+    display: flex;
+    padding: 16px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .MuiTypography-root,
+  .MuiTypography-body1 img {
+    margin-top: 1rem;
+    width: 95%;
+  }
+  .WithStyles\(ForwardRef\(Accordion\)\)-root-1 {
+    width: 360px !important;
+    box-shadow: none;
+  }
+
+  .WithStyles\(ForwardRef\(AccordionDetails\)\)-root-6 {
+    width: 360px !important;
+    display: flex;
+    padding: 16px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
