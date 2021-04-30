@@ -3,7 +3,7 @@
 </div>
 <div align="center">
   ### LemonYellow Mobile
-  ![LY_Mobile](LY_Mobile.gif)
+  ![LY_Mobile](LY_Desktop.gif)
 </div> 
 ---
 <div align="center">
