@@ -1,17 +1,26 @@
 <div align="center">
-  # LemonYellow
+
+# LemonYellow  <img src="/tinder.png" width="28">
+
 </div>
 <div align="center">
-  ### LemonYellow Mobile
-  ![LY_Mobile](LY_Desktop.gif)
-</div> 
+
+### Tinder Desktop
+
+
+![Tinder_Desktop](Tinder_Desktop.gif)
+
+</div>
+
 ---
 <div align="center">
-  ### LemonYellow Desktop
-  ![LY_Desktop](LY_Desktop.gif)
-</div> 
+
+### Tinder Mobile
+
+![Tinder_Mobile](Tinder_Mobile.gif)
+
+</div>
+
 ---
-<div align="center">
-  [Sachin Manchalla](https://github.com/raosachin800)
- </div>
-  
+
+[Sachin Manchalla](https://github.com/raosachin800)
