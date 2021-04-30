@@ -147,10 +147,12 @@ ul {
 
   .modal h3 {
     margin: 20px 0px 24px 30px;
+    font-size: 12px;
   }
 
   .modal h2 {
     margin: 24px 261px 8px 28px;
+    font-size: 25px;
   }
 
   .modal h4 {
