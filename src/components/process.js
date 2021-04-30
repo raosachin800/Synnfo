@@ -37,7 +37,7 @@ const Process = () => {
                         <img src={path} alt=""/>
                     </div>
                     <div className="process_cards" >
-                        <div className="cards" data-aos="slide-right" data-aos-duration="1000">
+                        <div className="cards" data-aos="fade-right" data-aos-duration="1000">
                             <img src={requirement} alt=""/>
                             <div className="fler">
                                 <h2>Requirement gathering</h2>
@@ -45,14 +45,14 @@ const Process = () => {
                             </div>
                             
                         </div>
-                        <div className="cards"data-aos="slide-right" data-aos-duration="1000" >
+                        <div className="cards"data-aos="fade-right" data-aos-duration="1000" >
                             <img src={resource} alt=""/>
                             <div className="fler">
                             <h2>Resource Selection</h2>
                             <h4>A growing part of our business is focused on emerging tech.</h4>
                             </div>
                         </div>
-                        <div className="cards" data-aos="slide-right" data-aos-duration="1000">
+                        <div className="cards" data-aos="fade-right" data-aos-duration="1000">
                             <img src={process} alt=""/>
                             <div className="fler">
                             <h2>Proposal</h2>
@@ -60,7 +60,7 @@ const Process = () => {
 
                             </div>
                         </div>
-                        <div className="cards" data-aos="slide-left" data-aos-duration="1000">
+                        <div className="cards" data-aos="fade-left" data-aos-duration="1000">
                             <img src={execution} alt=""/>
                             <div className="fler">
                             <h2>Execution</h2>
@@ -68,7 +68,7 @@ const Process = () => {
 
                             </div>
                         </div>
-                        <div className="cards" data-aos="slide-left" data-aos-duration="1000">
+                        <div className="cards" data-aos="fade-left" data-aos-duration="1000">
                             <img src={improvement} alt=""/>
                             <div className="fler">
                             <h2>Continous improvement</h2>
@@ -76,7 +76,7 @@ const Process = () => {
 
                             </div>
                         </div>
-                        <div className="cards" data-aos="slide-left" data-aos-duration="1000">
+                        <div className="cards" data-aos="fade-left" data-aos-duration="1000">
                             <img src={contract} alt=""/>
                             <div className="fler">
                             <h2>Contract Finalization</h2>
