@@ -65,7 +65,7 @@ font-family: 'Titillium Web', sans-serif; */
 
 .ham_content {
   background-color: rgb(255, 255, 255);
-  height: 95vh;
+  height: 96vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,8 +220,13 @@ font-family: 'Titillium Web', sans-serif; */
     overflow-y: hidden !important;
   }
   .ham_content {
-    top: 4%;
+    top: 4.5%;
     left: -130.5%;
+    /*     top: 3.5%;
+    left: -108.5%;
+    display: flex;
+    flex-direction: column; */
+
     display: flex;
     flex-direction: column;
 
@@ -262,10 +267,18 @@ font-family: 'Titillium Web', sans-serif; */
     top: 72.5%;
     position: absolute;
     left: 38%; */
-    width: 29%;
+    /* width: 29%;
     top: 73.5%;
     position: absolute;
-    left: 32%;
+    left: 32%; */
+    /*     width: 30%;
+    top: 72.5%;
+    position: absolute;
+    left: 38%; */
+    width: 26%;
+    top: 75.5%;
+    position: absolute;
+    left: 35%;
   }
   .cloudy img {
     width: 100%;
