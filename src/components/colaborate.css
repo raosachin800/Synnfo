@@ -66,6 +66,7 @@ font-family: 'Titillium Web', sans-serif; */
   object-fit: contain;
   background-color: inherit;
   border: 2px solid black;
+  cursor: pointer;
 }
 
 .lower_content p {
@@ -109,11 +110,20 @@ font-family: 'Titillium Web', sans-serif; */
   border: 2px solid black;
 }
 
+/* Button Animation */
+button:hover {
+  color: #fe5814;
+}
+
 @media screen and (max-device-width: 420px) {
+  button:hover {
+    color: #fe5814;
+  }
   .collab {
     background-image: url("../images/footer232.svg");
     object-fit: cover;
     object-position: center;
+    overflow-y: hidden !important;
   }
   .image_right {
     width: 100%;

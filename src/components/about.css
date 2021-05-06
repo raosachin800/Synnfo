@@ -90,6 +90,7 @@ font-family: 'Titillium Web', sans-serif; */
 @media screen and (max-device-width: 420px) {
   .cloud_about {
     background-image: url(../images//rectangle.svg);
+    overflow-y: hidden !important;
   }
   .cover_image {
     height: 100vh;

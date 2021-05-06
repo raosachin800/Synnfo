@@ -120,6 +120,9 @@ font-family: 'Titillium Web', sans-serif; */
 }
 
 @media screen and (max-device-width: 420px) {
+  .process {
+    overflow-y: hidden !important;
+  }
   .path {
     margin-top: 55.5px;
   }

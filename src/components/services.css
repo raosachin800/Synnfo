@@ -72,6 +72,24 @@ font-family: 'Titillium Web', sans-serif; */
   object-fit: contain;
 }
 
+/* Card Animation */
+
+.cards img:hover {
+  animation: hover 2s infinite;
+}
+
+@keyframes hover {
+  from {
+    transform: rotate(0.01turn);
+  }
+
+  to {
+    transform: rotate(0turn);
+  }
+}
+
+/* Card Animation end */
+
 .services_cards {
   display: grid;
   grid-template-columns: repeat(3, 400px);
@@ -131,6 +149,9 @@ font-family: 'Titillium Web', sans-serif; */
 }
 
 @media screen and (max-device-width: 420px) {
+  .provided_services {
+    overflow-y: hidden !important;
+  }
   .first_service img {
     width: 100%;
     object-fit: cover;

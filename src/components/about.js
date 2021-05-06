@@ -25,7 +25,7 @@ const About = () => {
                     <h4>A team of cloud experts committed to provide exceptional <br/>
                         tech solutions to complex problems with our expertise and <br/> favourite technology, with pleasure!  </h4>
                     <br/>
-                    <button className="know">Know Us <i class="fas fa-arrow-right"></i></button>
+                    <button className="know">Know Us <i className="fas fa-arrow-right"></i></button>
                 </div>
                 <div className="image"  data-aos="fade-right" data-aos-delay="400" >
                     <img src={combo} alt=""/>
