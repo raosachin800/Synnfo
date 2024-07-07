@@ -1,11 +1,11 @@
 <div align="center">
 
-# LemonYellow ReactJS Website 
+# Synnfo ReactJS Website 
 
 </div>
 <div align="center">
 
-  ### <h2>LemonYellow Mobile Version</h2>
+  ### <h2>Synnfo Mobile Version</h2>
   
   <h3> Tested in iphone 6/7/8/plus </h3>
 
@@ -17,7 +17,7 @@
 ---
 <div align="center">
   
-  ### LemonYellow Desktop
+  ### Synnfo Desktop
 
 
 ![LemonYellow_Desktop](LY_Desktop.gif)
